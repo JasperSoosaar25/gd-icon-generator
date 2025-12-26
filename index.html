@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GD Icon Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>GD Icon Generator (Starter)</h2>
+
+<div class="controls">
+  <label>Color 1: <input type="color" id="c1" value="#ff0000"></label>
+  <label>Color 2: <input type="color" id="c2" value="#00ff00"></label>
+</div>
+
+<canvas id="canvas" width="64" height="64"></canvas>
+
+<button id="download">Download ZIP</button>
+
+<p class="hint">Replace <b>icon-template.png</b> with your own GD icon template.</p>
+
+<img id="icon" src="icon-template.png" hidden>
+
+<script src="script.js"></script>
+</body>
+</html>
